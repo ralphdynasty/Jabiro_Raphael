@@ -25,15 +25,38 @@
     <p id="description"> Let us know how we can improve Jabiro Enterprise</p>
     <form id="survey-form">
       <label id="name-label">Name:</label>
-      <input type="text" name="fName" id="name" placeholder="Full name"><br>
+      <input type="text" name="fName" id="name" placeholder="Full name" required><br>
 
       <label id="email-label">Email:</label>
-      <input type="email" name="email" id="email" placeholder="your email here"><br>
+      <input type="email" name="email" id="email" placeholder="your email here" required><br>
 
       <label id="number-label">Age:</label>
       <input type="number" name="age" id="number" placeholder="age" min="0" max="100"><br>
       
+      <select id="dropdown">
+        <option>select from here</option>
+        <option>Student</option>
+        <option>Employed</option>
 
+
+      </select>
+     <ul>
+      
+      <li><label>TV:</label><input type="radio" name="tv" value="1"></li>
+      <li><label>CP:</label><input type="radio" name="tv" value="2"></li>
+      <li><label>Radio:</label><input type="radio" name="tv" value="3"></li>
+
+     </ul>
+     <!-- <ul name="cp">
+      <li><label>Sell</label><input type="radio" name="cp"></li>
+      <li><input type="radio" name="cp"></li>
+      <li><input type="radio" name="cp"></li>
+     </ul> -->
+    <input type="checkbox" value="1">
+    <input type="checkbox" value="2">
+    <input type="checkbox" value="3">
+    <textarea placeholder="additional comments"></textarea>
+    <button id="submit">submit</button>
     </form>
 
 
